@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+	<title>断章録</title>
+	<link>https://sla3er.github.io/html/</link>
+	<description>Obli</description>
+	<language>ja</language>
+	<lastBuildDate>Mon, 15 Jun 2026 04:55:58 +0900</lastBuildDate>
+	<atom:link href="https://sla3er.github.io/html/rss.xml" rel="self" type="application/rss+xml" />
+
+	<item>
+		<title>のけろんで</title>
+		<link>https://sla3er.github.io/html/2026/06/15-%E3%81%AE%E3%81%91%E3%82%8D%E3%82%93%E3%81%A7.html</link>
+		<guid isPermaLink="true">https://sla3er.github.io/html/2026/06/15-%E3%81%AE%E3%81%91%E3%82%8D%E3%82%93%E3%81%A7.html</guid>
+		<pubDate>Mon, 15 Jun 2026 00:00:00 +0900</pubDate>
+		<description><![CDATA[昇華という過程。そこに至るには？]]></description>
+	</item>
+
+	<item>
+		<title>エネルギー</title>
+		<link>https://sla3er.github.io/html/2026/06/14-%E3%82%A8%E3%83%8D%E3%83%AB%E3%82%AE%E3%83%BC.html</link>
+		<guid isPermaLink="true">https://sla3er.github.io/html/2026/06/14-%E3%82%A8%E3%83%8D%E3%83%AB%E3%82%AE%E3%83%BC.html</guid>
+		<pubDate>Sun, 14 Jun 2026 00:00:00 +0900</pubDate>
+		<description><![CDATA[なにが一日を初めさせるのか。]]></description>
+	</item>
+
+	<item>
+		<title>諦念</title>
+		<link>https://sla3er.github.io/html/2026/06/13-%E8%AB%A6%E5%BF%B5.html</link>
+		<guid isPermaLink="true">https://sla3er.github.io/html/2026/06/13-%E8%AB%A6%E5%BF%B5.html</guid>
+		<pubDate>Sat, 13 Jun 2026 00:00:00 +0900</pubDate>
+		<description><![CDATA[この空虚さに名前をつけたほうがいいのだろうか。]]></description>
+	</item>
+
+	<item>
+		<title>廻廊</title>
+		<link>https://sla3er.github.io/html/2026/06/12-%E5%BB%BB%E5%BB%8A.html</link>
+		<guid isPermaLink="true">https://sla3er.github.io/html/2026/06/12-%E5%BB%BB%E5%BB%8A.html</guid>
+		<pubDate>Fri, 12 Jun 2026 00:00:00 +0900</pubDate>
+		<description><![CDATA[どうしてこの一日を乗り越えていけようか。]]></description>
+	</item>
+
+	<item>
+		<title>虜</title>
+		<link>https://sla3er.github.io/html/2026/06/11-%E8%99%9C.html</link>
+		<guid isPermaLink="true">https://sla3er.github.io/html/2026/06/11-%E8%99%9C.html</guid>
+		<pubDate>Thu, 11 Jun 2026 00:00:00 +0900</pubDate>
+		<description><![CDATA[線引きによる画定、方向性のつけ方。]]></description>
+	</item>
+
+	<item>
+		<title>そこはか</title>
+		<link>https://sla3er.github.io/html/2026/06/10-%E3%81%9D%E3%81%93%E3%81%AF%E3%81%8B.html</link>
+		<guid isPermaLink="true">https://sla3er.github.io/html/2026/06/10-%E3%81%9D%E3%81%93%E3%81%AF%E3%81%8B.html</guid>
+		<pubDate>Wed, 10 Jun 2026 00:00:00 +0900</pubDate>
+		<description><![CDATA[椅子に座って、タイプして。]]></description>
+	</item>
+
+	<item>
+		<title>思考</title>
+		<link>https://sla3er.github.io/html/2026/06/09-%E6%80%9D%E8%80%83.html</link>
+		<guid isPermaLink="true">https://sla3er.github.io/html/2026/06/09-%E6%80%9D%E8%80%83.html</guid>
+		<pubDate>Tue, 09 Jun 2026 00:00:00 +0900</pubDate>
+		<description><![CDATA[情緒的思考についての見立て。]]></description>
+	</item>
+
+</channel>
+</rss>

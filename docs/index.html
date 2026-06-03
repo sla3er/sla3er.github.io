@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./style.css">
+	<title>obli</title>
+</head>
+<body>
+	<div class="full-container">
+		<article class="article">
+			<header class="header">
+				<h1 class="title">断章録</h1>
+				<p><a href="./rss.xml" style="text-decoration: none; color: #ebdbb2;">obli</a></p>
+				<button id="search-open-btn" style="display: none; background: none; border: none; padding: 5px; cursor: pointer; color: #ebdbb2; transition: color 0.2s;" onmouseover="this.style.color='#fabd2f'" onmouseout="this.style.color='#ebdbb2'">
+					<span class="emoji-gruv">🔍</span>
+				</button>
+			</header>
+			<div class="indent">
+				<nav>
+					<ul class="toc-list">
+						<li class="toc-item">
+							<a href="./html/2026/06/15-のけろんで.html" class="toc-link">
+								<span class="toc-emoji">06.15</span>
+								<div class="toc-text">
+									<span class="toc-title">のけろんで</span>
+									<span class="toc-abstract">昇華という過程。そこに至るには？</span>
+								</div>
+							</a>
+						</li>
+						<li class="toc-item">
+							<a href="./html/2026/06/14-エネルギー.html" class="toc-link">
+								<span class="toc-emoji">06.14</span>
+								<div class="toc-text">
+									<span class="toc-title">エネルギー</span>
+									<span class="toc-abstract">なにが一日を初めさせるのか。</span>
+								</div>
+							</a>
+						</li>
+						<li class="toc-item">
+							<a href="./html/2026/06/13-諦念.html" class="toc-link">
+								<span class="toc-emoji">06.13</span>
+								<div class="toc-text">
+									<span class="toc-title">諦念</span>
+									<span class="toc-abstract">この空虚さに名前をつけたほうがいいのだろうか。</span>
+								</div>
+							</a>
+						</li>
+						<li class="toc-item">
+							<a href="./html/2026/06/12-廻廊.html" class="toc-link">
+								<span class="toc-emoji">06.12</span>
+								<div class="toc-text">
+									<span class="toc-title">廻廊</span>
+									<span class="toc-abstract">どうしてこの一日を乗り越えていけようか。</span>
+								</div>
+							</a>
+						</li>
+						<li class="toc-item">
+							<a href="./html/2026/06/11-虜.html" class="toc-link">
+								<span class="toc-emoji">06.11</span>
+								<div class="toc-text">
+									<span class="toc-title">虜</span>
+									<span class="toc-abstract">線引きによる画定、方向性のつけ方。</span>
+								</div>
+							</a>
+						</li>
+						<li class="toc-item">
+							<a href="./html/2026/06/10-そこはか.html" class="toc-link">
+								<span class="toc-emoji">06.10</span>
+								<div class="toc-text">
+									<span class="toc-title">そこはか</span>
+									<span class="toc-abstract">椅子に座って、タイプして。</span>
+								</div>
+							</a>
+						</li>
+						<li class="toc-item">
+							<a href="./html/2026/06/09-思考.html" class="toc-link">
+								<span class="toc-emoji">06.09</span>
+								<div class="toc-text">
+									<span class="toc-title">思考</span>
+									<span class="toc-abstract">情緒的思考についての見立て。</span>
+								</div>
+							</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+
+			<div class="symbol">
+				<a href="./archive.html" style="text-decoration: none;"><span class="emoji-gruv">🦋</span></a>
+			</div>
+
+			<footer style="text-align: center; font-size: 0.8rem; opacity: 0.4;">
+				<p>Peace, Love, Unity and Having Fun. / Keep it Real.</p>
+			</footer>
+		</article>
+	</div>
+
+	<div id="search-modal" class="search-overlay">
+		<div class="search-window">
+			<span id="search-close-btn" class="close-button">&times;</span>
+			<h3>サイト内検索</h3>
+			<input type="text" id="modal-search-input" placeholder="キーワードを入力してください...">
+			<div id="modal-search-results"></div>
+		</div>
+	</div>
+
+	<script>
+		let searchIndexData = null;
+		const modal = document.getElementById('search-modal');
+		const openBtn = document.getElementById('search-open-btn');
+		const closeBtn = document.getElementById('search-close-btn');
+		const searchInput = document.getElementById('modal-search-input');
+		const resultsContainer = document.getElementById('modal-search-results');
+
+		openBtn.style.display = 'inline-block';
+
+		openBtn.addEventListener('click', async () => {
+			modal.style.display = 'flex';
+			searchInput.focus();
+			if (!searchIndexData) {
+				try {
+					const response = await fetch('search-data.json');
+					searchIndexData = await response.json();
+				} catch (error) {
+					console.error('Error:', error);
+					resultsContainer.innerHTML = '<p style="color:#fb4934;">Failed to load search data.</p>';
+				}
+			}
+		});
+
+		const closeModal = () => {
+			modal.style.display = 'none';
+			searchInput.value = '';
+			resultsContainer.innerHTML = '';
+		};
+
+		closeBtn.addEventListener('click', closeModal);
+		window.addEventListener('click', (e) => {
+			if (e.target === modal) {
+				closeModal();
+			}
+		});
+
+		searchInput.addEventListener('input', () => {
+			const query = searchInput.value.trim().toLowerCase();
+			resultsContainer.innerHTML = '';
+			if (!query || !searchIndexData) return;
+
+			const filtered = searchIndexData.filter(item => {
+				return item.title.toLowerCase().includes(query) || item.content.toLowerCase().includes(query);
+			});
+
+			if (filtered.length === 0) {
+				resultsContainer.innerHTML = '<p style="color:#a89984;">No results found.</p>';
+				return;
+			}
+
+			filtered.forEach(item => {
+				let snippet = item.content;
+				const idx = snippet.toLowerCase().indexOf(query);
+				if (idx > 30) {
+					snippet = '...' + snippet.substring(idx - 15, idx + 80) + '...';
+				} else {
+					snippet = snippet.substring(0, 95) + '...';
+				}
+
+				const itemHtml = `
+					<div class="search-item">
+						<div class="search-item-title"><a href="${item.url}">${item.title}</a></div>
+						<div class="search-item-snippet">${snippet}</div>
+					</div>
+				`;
+				resultsContainer.insertAdjacentHTML('beforeend', itemHtml);
+			});
+		});
+	</script>
+</body>
+</html>
