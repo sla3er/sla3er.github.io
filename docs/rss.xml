@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+	<title>断章録</title>
+	<link>https://sla3er.github.io/html/</link>
+	<description>obli</description>
+	<language>ja</language>
+	<lastBuildDate>Sat, 05 Sep 2026 05:35:36 +0900</lastBuildDate>
+	<atom:link href="https://sla3er.github.io/html/rss.xml" rel="self" type="application/rss+xml" />
+
+	<item>
+		<title>書き割りの中に住まうといえども</title>
+		<link>https://sla3er.github.io/html/2026/09/05-%E6%9B%B8%E3%81%8D%E5%89%B2%E3%82%8A%E3%81%AE%E4%B8%AD%E3%81%AB%E4%BD%8F%E3%81%BE%E3%81%86%E3%81%A8%E3%81%84%E3%81%88%E3%81%A9%E3%82%82.html</link>
+		<guid isPermaLink="true">https://sla3er.github.io/html/2026/09/05-%E6%9B%B8%E3%81%8D%E5%89%B2%E3%82%8A%E3%81%AE%E4%B8%AD%E3%81%AB%E4%BD%8F%E3%81%BE%E3%81%86%E3%81%A8%E3%81%84%E3%81%88%E3%81%A9%E3%82%82.html</guid>
+		<pubDate>Sat, 05 Sep 2026 00:00:00 +0900</pubDate>
+		<description><![CDATA[つたなさを足掛りに。]]></description>
+	</item>
+
+	<item>
+		<title>かしこにある風景</title>
+		<link>https://sla3er.github.io/html/2026/09/04-%E3%81%8B%E3%81%97%E3%81%93%E3%81%AB%E3%81%82%E3%82%8B%E9%A2%A8%E6%99%AF.html</link>
+		<guid isPermaLink="true">https://sla3er.github.io/html/2026/09/04-%E3%81%8B%E3%81%97%E3%81%93%E3%81%AB%E3%81%82%E3%82%8B%E9%A2%A8%E6%99%AF.html</guid>
+		<pubDate>Fri, 04 Sep 2026 00:00:00 +0900</pubDate>
+		<description><![CDATA[じしんはないけど。]]></description>
+	</item>
+
+	<item>
+		<title>偶発予知</title>
+		<link>https://sla3er.github.io/html/2026/09/03-%E5%81%B6%E7%99%BA%E4%BA%88%E7%9F%A5.html</link>
+		<guid isPermaLink="true">https://sla3er.github.io/html/2026/09/03-%E5%81%B6%E7%99%BA%E4%BA%88%E7%9F%A5.html</guid>
+		<pubDate>Thu, 03 Sep 2026 00:00:00 +0900</pubDate>
+		<description><![CDATA[既存の空間における未知への想起。]]></description>
+	</item>
+
+	<item>
+		<title>醸成機械</title>
+		<link>https://sla3er.github.io/html/2026/09/02-%E9%86%B8%E6%88%90%E6%A9%9F%E6%A2%B0.html</link>
+		<guid isPermaLink="true">https://sla3er.github.io/html/2026/09/02-%E9%86%B8%E6%88%90%E6%A9%9F%E6%A2%B0.html</guid>
+		<pubDate>Wed, 02 Sep 2026 00:00:00 +0900</pubDate>
+		<description><![CDATA[あのときアトムは何を思ったのか？]]></description>
+	</item>
+
+	<item>
+		<title>悲しみというアラート</title>
+		<link>https://sla3er.github.io/html/2026/09/01-%E6%82%B2%E3%81%97%E3%81%BF%E3%81%A8%E3%81%84%E3%81%86%E3%82%A2%E3%83%A9%E3%83%BC%E3%83%88.html</link>
+		<guid isPermaLink="true">https://sla3er.github.io/html/2026/09/01-%E6%82%B2%E3%81%97%E3%81%BF%E3%81%A8%E3%81%84%E3%81%86%E3%82%A2%E3%83%A9%E3%83%BC%E3%83%88.html</guid>
+		<pubDate>Tue, 01 Sep 2026 00:00:00 +0900</pubDate>
+		<description><![CDATA[今日という日に向き合って。]]></description>
+	</item>
+
+	<item>
+		<title>所以</title>
+		<link>https://sla3er.github.io/html/2026/08/31-%E6%89%80%E4%BB%A5.html</link>
+		<guid isPermaLink="true">https://sla3er.github.io/html/2026/08/31-%E6%89%80%E4%BB%A5.html</guid>
+		<pubDate>Mon, 31 Aug 2026 00:00:00 +0900</pubDate>
+		<description><![CDATA[忘れては、繰返されること。]]></description>
+	</item>
+
+	<item>
+		<title>章</title>
+		<link>https://sla3er.github.io/html/2026/08/30-%E7%AB%A0.html</link>
+		<guid isPermaLink="true">https://sla3er.github.io/html/2026/08/30-%E7%AB%A0.html</guid>
+		<pubDate>Sun, 30 Aug 2026 00:00:00 +0900</pubDate>
+		<description><![CDATA[Luv(sic) pt3]]></description>
+	</item>
+
+</channel>
+</rss>
