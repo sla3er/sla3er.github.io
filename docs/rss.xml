@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+	<title>断章録</title>
+	<link>https://sla3er.github.io/html/</link>
+	<description>obli</description>
+	<language>ja</language>
+	<lastBuildDate>Sun, 18 Oct 2026 05:33:00 +0900</lastBuildDate>
+	<atom:link href="https://sla3er.github.io/html/rss.xml" rel="self" type="application/rss+xml" />
+
+	<item>
+		<title>そう</title>
+		<link>https://sla3er.github.io/html/2026/10/18-%E3%81%9D%E3%81%86.html</link>
+		<guid isPermaLink="true">https://sla3er.github.io/html/2026/10/18-%E3%81%9D%E3%81%86.html</guid>
+		<pubDate>Sun, 18 Oct 2026 00:00:00 +0900</pubDate>
+		<description><![CDATA[運命を感じるのだろうか、その時は気分が上向くのだろうか。]]></description>
+	</item>
+
+	<item>
+		<title>あれれ</title>
+		<link>https://sla3er.github.io/html/2026/10/17-%E3%81%82%E3%82%8C%E3%82%8C.html</link>
+		<guid isPermaLink="true">https://sla3er.github.io/html/2026/10/17-%E3%81%82%E3%82%8C%E3%82%8C.html</guid>
+		<pubDate>Sat, 17 Oct 2026 00:00:00 +0900</pubDate>
+		<description><![CDATA[とけださんばかりに、とけださんように。]]></description>
+	</item>
+
+	<item>
+		<title>それから</title>
+		<link>https://sla3er.github.io/html/2026/10/16-%E3%81%9D%E3%82%8C%E3%81%8B%E3%82%89.html</link>
+		<guid isPermaLink="true">https://sla3er.github.io/html/2026/10/16-%E3%81%9D%E3%82%8C%E3%81%8B%E3%82%89.html</guid>
+		<pubDate>Fri, 16 Oct 2026 00:00:00 +0900</pubDate>
+		<description><![CDATA[考えるということはどういうことだろうか。]]></description>
+	</item>
+
+	<item>
+		<title>でも</title>
+		<link>https://sla3er.github.io/html/2026/10/15-%E3%81%A7%E3%82%82.html</link>
+		<guid isPermaLink="true">https://sla3er.github.io/html/2026/10/15-%E3%81%A7%E3%82%82.html</guid>
+		<pubDate>Thu, 15 Oct 2026 00:00:00 +0900</pubDate>
+		<description><![CDATA[回帰してることにきづくのはいつのことなのだろうか。]]></description>
+	</item>
+
+	<item>
+		<title>かおる</title>
+		<link>https://sla3er.github.io/html/2026/10/14-%E3%81%8B%E3%81%8A%E3%82%8B.html</link>
+		<guid isPermaLink="true">https://sla3er.github.io/html/2026/10/14-%E3%81%8B%E3%81%8A%E3%82%8B.html</guid>
+		<pubDate>Wed, 14 Oct 2026 00:00:00 +0900</pubDate>
+		<description><![CDATA[エントロピー。]]></description>
+	</item>
+
+	<item>
+		<title>あったっけ</title>
+		<link>https://sla3er.github.io/html/2026/10/13-%E3%81%82%E3%81%A3%E3%81%9F%E3%81%A3%E3%81%91.html</link>
+		<guid isPermaLink="true">https://sla3er.github.io/html/2026/10/13-%E3%81%82%E3%81%A3%E3%81%9F%E3%81%A3%E3%81%91.html</guid>
+		<pubDate>Tue, 13 Oct 2026 00:00:00 +0900</pubDate>
+		<description><![CDATA[夢のアイランド・ビーチにおいて。]]></description>
+	</item>
+
+	<item>
+		<title>なだらかに</title>
+		<link>https://sla3er.github.io/html/2026/10/12-%E3%81%AA%E3%81%A0%E3%82%89%E3%81%8B%E3%81%AB.html</link>
+		<guid isPermaLink="true">https://sla3er.github.io/html/2026/10/12-%E3%81%AA%E3%81%A0%E3%82%89%E3%81%8B%E3%81%AB.html</guid>
+		<pubDate>Mon, 12 Oct 2026 00:00:00 +0900</pubDate>
+		<description><![CDATA[きらきら星に絆されて。]]></description>
+	</item>
+
+</channel>
+</rss>
