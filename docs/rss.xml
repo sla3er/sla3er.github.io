@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+	<title>断章録</title>
+	<link>https://sla3er.github.io/html/</link>
+	<description>obli</description>
+	<language>ja</language>
+	<lastBuildDate>Sat, 24 Oct 2026 03:35:55 +0900</lastBuildDate>
+	<atom:link href="https://sla3er.github.io/html/rss.xml" rel="self" type="application/rss+xml" />
+
+	<item>
+		<title>そっと</title>
+		<link>https://sla3er.github.io/html/2026/10/24-%E3%81%9D%E3%81%A3%E3%81%A8.html</link>
+		<guid isPermaLink="true">https://sla3er.github.io/html/2026/10/24-%E3%81%9D%E3%81%A3%E3%81%A8.html</guid>
+		<pubDate>Sat, 24 Oct 2026 00:00:00 +0900</pubDate>
+		<description><![CDATA[上を向いて。]]></description>
+	</item>
+
+	<item>
+		<title>かわる</title>
+		<link>https://sla3er.github.io/html/2026/10/23-%E3%81%8B%E3%82%8F%E3%82%8B.html</link>
+		<guid isPermaLink="true">https://sla3er.github.io/html/2026/10/23-%E3%81%8B%E3%82%8F%E3%82%8B.html</guid>
+		<pubDate>Fri, 23 Oct 2026 00:00:00 +0900</pubDate>
+		<description><![CDATA[ありえんことと思うのはなんだろか。]]></description>
+	</item>
+
+	<item>
+		<title>ねる</title>
+		<link>https://sla3er.github.io/html/2026/10/22-%E3%81%AD%E3%82%8B.html</link>
+		<guid isPermaLink="true">https://sla3er.github.io/html/2026/10/22-%E3%81%AD%E3%82%8B.html</guid>
+		<pubDate>Thu, 22 Oct 2026 00:00:00 +0900</pubDate>
+		<description><![CDATA[気分の変動など毎度のことだから。]]></description>
+	</item>
+
+	<item>
+		<title>まんぞく</title>
+		<link>https://sla3er.github.io/html/2026/10/21-%E3%81%BE%E3%82%93%E3%81%9E%E3%81%8F.html</link>
+		<guid isPermaLink="true">https://sla3er.github.io/html/2026/10/21-%E3%81%BE%E3%82%93%E3%81%9E%E3%81%8F.html</guid>
+		<pubDate>Wed, 21 Oct 2026 00:00:00 +0900</pubDate>
+		<description><![CDATA[喚起喝采。]]></description>
+	</item>
+
+	<item>
+		<title>なるへそ</title>
+		<link>https://sla3er.github.io/html/2026/10/20-%E3%81%AA%E3%82%8B%E3%81%B8%E3%81%9D.html</link>
+		<guid isPermaLink="true">https://sla3er.github.io/html/2026/10/20-%E3%81%AA%E3%82%8B%E3%81%B8%E3%81%9D.html</guid>
+		<pubDate>Tue, 20 Oct 2026 00:00:00 +0900</pubDate>
+		<description><![CDATA[精進すること。]]></description>
+	</item>
+
+	<item>
+		<title>そこかしこ</title>
+		<link>https://sla3er.github.io/html/2026/10/19-%E3%81%9D%E3%81%93%E3%81%8B%E3%81%97%E3%81%93.html</link>
+		<guid isPermaLink="true">https://sla3er.github.io/html/2026/10/19-%E3%81%9D%E3%81%93%E3%81%8B%E3%81%97%E3%81%93.html</guid>
+		<pubDate>Mon, 19 Oct 2026 00:00:00 +0900</pubDate>
+		<description><![CDATA[笑って、泣いて、揺蕩んで。]]></description>
+	</item>
+
+	<item>
+		<title>そう</title>
+		<link>https://sla3er.github.io/html/2026/10/18-%E3%81%9D%E3%81%86.html</link>
+		<guid isPermaLink="true">https://sla3er.github.io/html/2026/10/18-%E3%81%9D%E3%81%86.html</guid>
+		<pubDate>Sun, 18 Oct 2026 00:00:00 +0900</pubDate>
+		<description><![CDATA[運命を感じるのだろうか、その時は気分が上向くのだろうか。]]></description>
+	</item>
+
+</channel>
+</rss>
