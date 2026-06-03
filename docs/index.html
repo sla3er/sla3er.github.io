@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="./theme.js"></script>
+	<script src="./index_search.js" defer></script>
+	<link rel="stylesheet" href="./style.css">
+	<title>obli</title>
+</head>
+<body>
+	<div class="full-container">
+		<div class="theme-switch-wrapper">
+			<input type="checkbox" id="theme-toggle">
+			<label for="theme-toggle" class="theme-toggle-button"></label>
+		</div>
+		<article class="article">
+			<header class="header">
+				<h1 class="title">断章録</h1>
+				<p><a href="./rss.xml">obli</a></p>
+				<button id="search-open-btn">⦧O'0</button>
+			</header>
+			<div class="indent">
+				<nav>
+					<ul class="toc-list">
+						<li class="toc-item">
+							<a href="./html/2026/11/02-恋人.html" class="toc-link">
+								<span class="toc-emoji">11.01</span>
+								<div class="toc-text">
+									<span class="toc-title">恋人</span>
+									<span class="toc-abstract">ロマンスなんていつ語ったろう。</span>
+								</div>
+							</a>
+						</li>
+						<li class="toc-item">
+							<a href="./html/2026/11/01-忘れては.html" class="toc-link">
+								<span class="toc-emoji">11.01</span>
+								<div class="toc-text">
+									<span class="toc-title">忘れては</span>
+									<span class="toc-abstract">反復、一歩、その故だろか……。どうか許してほしいこの独白を。</span>
+								</div>
+							</a>
+						</li>
+						<li class="toc-item">
+							<a href="./html/2026/10/31-はんぷく.html" class="toc-link">
+								<span class="toc-emoji">10.31</span>
+								<div class="toc-text">
+									<span class="toc-title">はんぷく</span>
+									<span class="toc-abstract">走って跳べば乗り越えられるか。</span>
+								</div>
+							</a>
+						</li>
+						<li class="toc-item">
+							<a href="./html/2026/10/30-せつな.html" class="toc-link">
+								<span class="toc-emoji">10.30</span>
+								<div class="toc-text">
+									<span class="toc-title">せつな</span>
+									<span class="toc-abstract">歩き出せるのは、何によってだろう。</span>
+								</div>
+							</a>
+						</li>
+						<li class="toc-item">
+							<a href="./html/2026/10/29-てんてん.html" class="toc-link">
+								<span class="toc-emoji">10.29</span>
+								<div class="toc-text">
+									<span class="toc-title">てんてん</span>
+									<span class="toc-abstract">忘れることが許されないのならば。</span>
+								</div>
+							</a>
+						</li>
+						<li class="toc-item">
+							<a href="./html/2026/10/28-おんど.html" class="toc-link">
+								<span class="toc-emoji">10.28</span>
+								<div class="toc-text">
+									<span class="toc-title">おんど</span>
+									<span class="toc-abstract">観察により学ぶ。</span>
+								</div>
+							</a>
+						</li>
+						<li class="toc-item">
+							<a href="./html/2026/10/27-ひろう.html" class="toc-link">
+								<span class="toc-emoji">10.27</span>
+								<div class="toc-text">
+									<span class="toc-title">ひろう</span>
+									<span class="toc-abstract">ヴィ・ヴァ・ザ・ワールド。</span>
+								</div>
+							</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+			<div class="symbol">
+				<a href="./archive.html">⨾༊·˚</a>
+			</div>
+			<footer class="footer-phrase">
+				<p>Peace, Love, Unity and Having Fun. / Keep it Real.</p>
+			</footer>
+		</article>
+	</div>
+	<div id="search-modal" class="search-overlay">
+		<div class="search-window">
+			<span id="search-close-btn" class="close-button">&times;</span>
+			<h3>サイト内検索</h3>
+			<input type="text" id="modal-search-input" placeholder="キーワードを入力してください...">
+			<div id="modal-search-results"></div>
+		</div>
+	</div>
+</body>
+</html>
